@@ -1,11 +1,12 @@
 {
+  "homepage": "http://KataScripted.github.io/vk-app",
   "name": "vk-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
-    "vk-tunnel": "vk-tunnel --insecure=1 --http-protocol=https --ws-protocol=wss --host=localhost --port=10888",
+    "tunnel": "vk-tunnel —insecure=1 —http-protocol=https —ws-protocol=wss —host=localhost —port=10888",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build"
@@ -49,6 +50,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "http://KataScripted.github.io/vk-mini-project"
+  }
 }
