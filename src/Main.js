@@ -28,7 +28,8 @@ class Main extends React.Component {
           // bridge.subscribe((e) => { 
           //   alert(e.data); 
           // });
-
+          const data = bridge.send('VKWebAppGetUserInfo', {});
+          console.log(data)
      }
 
      changePanelNow(panel, id, prevId) {
@@ -65,7 +66,7 @@ class Main extends React.Component {
 
                               <Title level="1" weight="bold" style={{ marginBottom: 16, marginTop: 15 }}>Другие</Title>
 
-                              <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
+                              <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap" }}>
 
                                    {jsonExercises.slice(5, 11).map(data => {
                                         return (
