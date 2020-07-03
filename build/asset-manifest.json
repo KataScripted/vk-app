@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/vk-app/static/js/main.dc750bf5.chunk.js",
+    "main.js.map": "/vk-app/static/js/main.dc750bf5.chunk.js.map",
+    "runtime-main.js": "/vk-app/static/js/runtime-main.5d036902.js",
+    "runtime-main.js.map": "/vk-app/static/js/runtime-main.5d036902.js.map",
+    "static/css/2.a28d9ceb.chunk.css": "/vk-app/static/css/2.a28d9ceb.chunk.css",
+    "static/js/2.a952d8cf.chunk.js": "/vk-app/static/js/2.a952d8cf.chunk.js",
+    "static/js/2.a952d8cf.chunk.js.map": "/vk-app/static/js/2.a952d8cf.chunk.js.map",
+    "index.html": "/vk-app/index.html",
+    "precache-manifest.db8bf6015125ea9ee1e497677ea45e26.js": "/vk-app/precache-manifest.db8bf6015125ea9ee1e497677ea45e26.js",
+    "service-worker.js": "/vk-app/service-worker.js",
+    "static/css/2.a28d9ceb.chunk.css.map": "/vk-app/static/css/2.a28d9ceb.chunk.css.map",
+    "static/js/2.a952d8cf.chunk.js.LICENSE.txt": "/vk-app/static/js/2.a952d8cf.chunk.js.LICENSE.txt",
+    "static/media/UJAnRhJ.gif": "/vk-app/static/media/UJAnRhJ.92efc121.gif",
+    "static/media/push_ups_new.png": "/vk-app/static/media/push_ups_new.29098555.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d036902.js",
+    "static/css/2.a28d9ceb.chunk.css",
+    "static/js/2.a952d8cf.chunk.js",
+    "static/js/main.dc750bf5.chunk.js"
+  ]
+}

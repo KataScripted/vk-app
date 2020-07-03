@@ -6,7 +6,7 @@
   "homepage": "http://katascripted.github.io/vk-app",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
-    "vk-tunnel": "vk-tunnel --insecure=1 --http-protocol=https --ws-protocol=wss --host=localhost --port=10888",
+    "tunnel": "vk-tunnel —insecure=1 —http-protocol=https —ws-protocol=wss —host=localhost —port=10888",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build"
@@ -50,5 +50,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
+}
 }
