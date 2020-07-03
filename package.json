@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "http://katascripted.github.io/vk-app",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
     "vk-tunnel": "vk-tunnel --insecure=1 --http-protocol=https --ws-protocol=wss --host=localhost --port=10888",
@@ -50,5 +51,4 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://KataScripted.github.io/vk-mini-project"
 }
